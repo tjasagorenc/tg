@@ -1,0 +1,47 @@
+body{
+  background-color: #bcd3f7;
+  padding: 20px 20%;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+#nav {
+  text-align: center;
+  padding: 20px;
+}
+#nav > a{
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+  text-decoration: none;
+}
+#portret{
+  -webkit-box-shadow: 4px 11px 22px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 11px 22px -7px rgba(0,0,0,0.75);
+box-shadow: 4px 11px 22px -7px rgba(0,0,0,0.75);
+  width: 100%;
+  min-width: 100px;
+  border-radius: 10px;
+}
+
+#mreza{
+  -webkit-box-shadow: 13px 14px 29px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 13px 14px 29px -2px rgba(0,0,0,0.75);
+  box-shadow: 13px 14px 29px -2px rgba(0,0,0,0.75);
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  "nav nav"
+  "jedro meni";
+  background-color: white;
+
+}
+
+#meni{grid-area: meni;
+padding: 40px;
+}
+#nav{grid-area: nav;}
+#jedro{grid-area: jedro;
+padding: 20px;
+
+}
